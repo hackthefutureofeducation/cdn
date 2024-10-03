@@ -1831,3 +1831,4 @@ window.addEventListener("keydown", (e) => {
     window.location.reload()
   }),
   displayWord();
+document.getElementById('shuffle-btn').addEventListener('click', ()=>window.location.reload())
